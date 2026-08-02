@@ -28,4 +28,11 @@ public class PersonData {
     }
 
 
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setHkid(String hkid) {
+        this.hkid = hkid;
+    }
 }
