@@ -1,8 +1,15 @@
 package com.fsse2603.lab_b01;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class PersonData {
+    @JsonProperty("first_name")
     private String firstName;
+
+    @JsonProperty("last_name")
     private String lastName;
+
+    @JsonProperty("hkid_number")
     private String hkid;
 
     //public PersonData(String firstName, String lastName, String hkid) {
